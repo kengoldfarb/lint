@@ -2,6 +2,7 @@ const typescriptEslintRecommended = require('@typescript-eslint/eslint-plugin/di
 const typescriptEslintPrettier = require('eslint-config-prettier/@typescript-eslint')
 const importRules = require('eslint-plugin-import/config/errors')
 
+
 const defaultFormattingRules = {
 	curly: 'error',
 	'kengoldfarb/prefer-pascal-case-enums': 'error',
