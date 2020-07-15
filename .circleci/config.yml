@@ -114,12 +114,12 @@ workflows:
   version: 2
   do_build:
     jobs:
-      - test:
-          context: public_package_publish
-          filters:
-            branches:
-              ignore:
-                - master
+      # - test:
+      #     context: public_package_publish
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - master
       - pre_release:
           context: public_package_publish
           requires:
