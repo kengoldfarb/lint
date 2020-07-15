@@ -122,8 +122,8 @@ workflows:
       #           - master
       - pre_release:
           context: public_package_publish
-          requires:
-            - test
+          # requires:
+          #   - test
           filters:
             branches:
               only:
@@ -136,8 +136,8 @@ workflows:
                 - canary
       - dev_release:
           context: public_package_publish
-          requires:
-            - test
+          # requires:
+          #   - test
           filters:
             branches:
               only:
