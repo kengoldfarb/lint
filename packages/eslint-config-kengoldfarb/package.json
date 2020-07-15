@@ -1,0 +1,42 @@
+{
+	"name": "eslint-config-kengoldfarb",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "1.0.0",
+	"description": "A sensible ESLint configuration for Typescript and (optionally) React",
+	"author": "Ken Goldfarb <hello@kengoldfarb.com>",
+	"homepage": "https://github.com/kengoldfarb/lint",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kengoldfarb/lint.git"
+	},
+	"scripts": {
+		"arkit": "arkit -f index.js -o docs/images/arkit.svg",
+		"arkit.png": "arkit -f index.js -o docs/images/arkit.png"
+	},
+	"bugs": {
+		"url": "https://github.com/kengoldfarb/lint/issues"
+	},
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.22.0",
+		"@typescript-eslint/parser": "^2.22.0",
+		"babel-eslint": "10.0.1",
+		"eslint-config-prettier": "^6.7.0",
+		"eslint-plugin-import": "2.20.0",
+		"eslint-plugin-jsx-a11y": "6.1.2",
+		"eslint-plugin-prettier": "^3.1.1",
+		"eslint-plugin-react": "^7.16.0",
+		"eslint-plugin-kengoldfarb": "^1.0.0"
+	},
+	"peerDependencies": {
+		"eslint": "^3.0.0 || ^4.0.0 || ^5.0.0",
+		"prettier": "^1.19",
+		"typescript": "^3.8"
+	},
+	"devDependencies": {
+		"arkit": "^1.6.4"
+	}
+}

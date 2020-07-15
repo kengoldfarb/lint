@@ -1,0 +1,29 @@
+{
+	"name": "eslint-plugin-kengoldfarb",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "1.0.0",
+	"description": "A sensible ESLint configuration for Typescript and (optionally) React",
+	"author": "Ken Goldfarb <hello@kengoldfarb.com>",
+	"homepage": "https://github.com/kengoldfarb/lint",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kengoldfarb/lint.git"
+	},
+	"scripts": {
+		"arkit": "arkit -f index.js -o docs/images/arkit.svg",
+		"arkit.png": "arkit -f index.js -o docs/images/arkit.png"
+	},
+	"bugs": {
+		"url": "https://github.com/kengoldfarb/lint/issues"
+	},
+	"dependencies": {
+		"pascal-case": "^2.0.1"
+	},
+	"devDependencies": {
+		"arkit": "^1.6.4"
+	}
+}
