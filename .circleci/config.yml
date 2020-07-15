@@ -1,5 +1,6 @@
 version: 2
 jobs:
+  # TODO: Remove test?
   test:
     docker:
       - image: circleci/node:12
