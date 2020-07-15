@@ -6,7 +6,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f2:3b:8d:be:ff:9f:22:39:91:65:be:25:89:fa:b5:c4"
+            - "05:f0:05:8d:83:60:6f:f7:a9:84:65:97:a3:aa:53:4b"
       - checkout
       - run: node -v && npm -v && yarn -v
       - restore_cache:
@@ -27,7 +27,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f2:3b:8d:be:ff:9f:22:39:91:65:be:25:89:fa:b5:c4"
+            - "05:f0:05:8d:83:60:6f:f7:a9:84:65:97:a3:aa:53:4b"
       - run: node -v && npm -v
       - checkout
       - restore_cache:
@@ -48,7 +48,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f2:3b:8d:be:ff:9f:22:39:91:65:be:25:89:fa:b5:c4"
+            - "05:f0:05:8d:83:60:6f:f7:a9:84:65:97:a3:aa:53:4b"
       - run: node -v && npm -v
       - checkout
       - restore_cache:
@@ -69,7 +69,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f2:3b:8d:be:ff:9f:22:39:91:65:be:25:89:fa:b5:c4"
+            - "05:f0:05:8d:83:60:6f:f7:a9:84:65:97:a3:aa:53:4b"
       - run: node -v && npm -v
       - checkout
       - run:
@@ -96,7 +96,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f2:3b:8d:be:ff:9f:22:39:91:65:be:25:89:fa:b5:c4"
+            - "05:f0:05:8d:83:60:6f:f7:a9:84:65:97:a3:aa:53:4b"
       - run: node -v && npm -v
       - checkout
       - restore_cache:
