@@ -22,6 +22,10 @@ module.exports = {
 			}
 		],
 		camelcase: ['error', { allow: ['^__webpack'] }],
+		'import/no-extraneous-dependencies': [
+			'error',
+			{ devDependencies: ['.*.js', 'release.config.js', '**/*.test.js'] }
+		],
 		semi: 0,
 		indent: 0,
 		quotes: 0,
