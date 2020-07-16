@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "1.0.3",
+	"version": "1.1.0",
 	"description": "A sensible ESLint configuration for Typescript and (optionally) React",
 	"author": "Ken Goldfarb <hello@kengoldfarb.com>",
 	"homepage": "https://github.com/kengoldfarb/lint",
