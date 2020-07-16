@@ -18,7 +18,8 @@ module.exports = {
 				singleQuote: true,
 				useTabs: true,
 				semi: false,
-				trailingComma: 'none'
+				trailingComma: 'none',
+				arrowParens: 'avoid'
 			}
 		],
 		camelcase: ['error', { allow: ['^__webpack'] }],
