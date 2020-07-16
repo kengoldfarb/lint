@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/kengoldfarb/lint/compare/v1.1.7...v1.2.0) (2020-07-16)
+
+
+### Features
+
+* avoid arrow parens ([e2167dc](https://github.com/kengoldfarb/lint/commit/e2167dc))
+
+
+
+
+
 ## [1.1.7](https://github.com/kengoldfarb/lint/compare/v1.1.6...v1.1.7) (2020-07-16)
 
 **Note:** Version bump only for package @kengoldfarb/lint
