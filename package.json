@@ -11,8 +11,8 @@
 		"npm": ">=6"
 	},
 	"scripts": {
-		"lint": "lerna run lint",
-		"lint.fix": "lerna run lint.fix",
+		"lint": "eslint '**/*.js'",
+		"lint:fix": "eslint --fix '**/*.js'",
 		"build": "lerna run build",
 		"watch": "lerna run watch --no-sort --stream",
 		"test": "lerna run test --parallel",
