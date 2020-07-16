@@ -6,6 +6,7 @@ const importRules = require('eslint-plugin-import/config/errors')
 const defaultFormattingRules = {
 	curly: 'error',
 	'kengoldfarb/prefer-pascal-case-enums': 'error',
+	'comma-dangle': ['error', 'never'],
 	'react/jsx-no-undef': 'error',
 	'no-console': 'off',
 	'no-undef': 'error',
