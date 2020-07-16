@@ -22,7 +22,6 @@ module.exports = {
 			}
 		],
 		camelcase: ['error', { allow: ['^__webpack'] }],
-
 		'no-tabs': 0,
 		'comma-dangle': ['error', 'never'],
 		'jsx-a11y/control-has-associated-label': 0,
@@ -91,10 +90,13 @@ module.exports = {
 					}
 				],
 				'@typescript-eslint/explicit-member-accessibility': ['error'],
+
+				// Defer to prettier
 				semi: 0,
 				'@typescript-eslint/semi': ['error', 'never'],
-				'@typescript-eslint/indent': ['error', 'tab'],
 				indent: 0,
+				'@typescript-eslint/indent': 0,
+
 				'@typescript-eslint/naming-convention': [
 					'error',
 					{ selector: 'variableLike', format: ['camelCase'] },
@@ -108,7 +110,8 @@ module.exports = {
 				'@typescript-eslint/no-unused-vars': [
 					'error',
 					{ argsIgnorePattern: '^_' }
-				]
+				],
+				'@typescript-eslint/ban-ts-comment': 0
 			}
 		}
 	]
