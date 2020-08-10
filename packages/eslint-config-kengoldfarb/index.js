@@ -25,7 +25,14 @@ module.exports = {
 		camelcase: ['error', { allow: ['^__webpack'] }],
 		'import/no-extraneous-dependencies': [
 			'error',
-			{ devDependencies: ['.*.js', 'release.config.js', '**/*.test.js'] }
+			{
+				devDependencies: [
+					'.*.js',
+					'release.config.js',
+					'**/*.test.js',
+					'**/*.test.ts'
+				]
+			}
 		],
 		semi: 0,
 		indent: 0,
@@ -97,11 +104,16 @@ module.exports = {
 
 		'@typescript-eslint/naming-convention': [
 			'error',
-			{ selector: 'variableLike', format: ['camelCase'] },
+			{
+				selector: 'variableLike',
+				format: ['camelCase'],
+				leadingUnderscore: 'allow'
+			},
 			{
 				selector: 'variable',
 				types: ['boolean'],
 				format: ['PascalCase'],
+				leadingUnderscore: 'allow',
 				prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'was']
 			}
 		],
@@ -114,7 +126,9 @@ module.exports = {
 		{
 			files: ['*.ts', '*.tsx'],
 			rules: {
-				'@typescript-eslint/no-var-requires': 'error'
+				'@typescript-eslint/no-var-requires': 'error',
+				'import/extensions': 0,
+				camelcase: 0
 			}
 		}
 	]
