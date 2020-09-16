@@ -114,7 +114,7 @@ module.exports = {
 				types: ['boolean'],
 				format: ['PascalCase'],
 				leadingUnderscore: 'allow',
-				prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'was']
+				prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'was', 'as']
 			}
 		],
 		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
