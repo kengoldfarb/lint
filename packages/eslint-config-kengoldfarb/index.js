@@ -7,7 +7,14 @@ module.exports = {
 		'plugin:react/recommended',
 		'prettier'
 	],
-	plugins: ['@typescript-eslint', 'prettier', 'kengoldfarb', 'import', 'react'],
+	plugins: [
+		'@typescript-eslint',
+		'prettier',
+		'kengoldfarb',
+		'import',
+		'react',
+		'react-hooks'
+	],
 	parserOptions: {
 		project: './tsconfig.json',
 		ecmaFeatures: {

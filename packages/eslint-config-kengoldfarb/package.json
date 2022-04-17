@@ -30,7 +30,7 @@
 		"eslint-plugin-kengoldfarb": "^1.4.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.29.4",
-		"eslint-plugin-react-hooks": "^4.0.8",
+		"eslint-plugin-react-hooks": "^4.4.0",
 		"prettier": "^2.0.5"
 	},
 	"peerDependencies": {
