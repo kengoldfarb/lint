@@ -1,14 +1,29 @@
 module.exports = {
 	extends: [
+		'eslint:recommended',
 		'airbnb-typescript',
 		'plugin:@typescript-eslint/recommended',
-		'prettier',
-		'prettier/react',
-		'prettier/@typescript-eslint'
+		'plugin:import/recommended',
+		'plugin:react/recommended',
+		'prettier'
 	],
-	plugins: ['@typescript-eslint', 'prettier', 'kengoldfarb'],
+	plugins: ['@typescript-eslint', 'prettier', 'kengoldfarb', 'import', 'react'],
 	parserOptions: {
-		project: './tsconfig.json'
+		project: './tsconfig.json',
+		ecmaFeatures: {
+			jsx: true,
+			modules: true
+		}
+	},
+	settings: {
+		react: {
+			version: '>=18.0.0'
+		}
+	},
+	env: {
+		browser: true,
+		node: true,
+		es6: true
 	},
 	parser: '@typescript-eslint/parser',
 	rules: {
