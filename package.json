@@ -9,7 +9,8 @@
 	"scripts": {
 		"lint": "eslint '**/*.js'",
 		"lint:fix": "eslint --fix '**/*.js'",
-		"build": "lerna run build",
+		"build": "lerna run build --parallel",
+		"bootstrap": "lerna bootstrap",
 		"watch": "lerna run watch --no-sort --stream",
 		"test": "lerna run test --parallel",
 		"publish": "lerna publish",
