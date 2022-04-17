@@ -70,7 +70,7 @@ workflows:
               ignore:
                 - master
       - pre_release:
-          context: public_packages
+          context: public_package_publish
           filters:
             branches:
               only:
@@ -78,13 +78,13 @@ workflows:
       - dev_release:
           requires:
             - test
-          context: public_packages
+          context: public_package_publish
           filters:
             branches:
               only:
                 - dev
       - prod_release:
-          context: public_packages
+          context: public_package_publish
           filters:
             branches:
               only:
