@@ -2,10 +2,6 @@
 	"version": "0.0.1",
 	"private": true,
 	"name": "@kengoldfarb/lint",
-	"workspaces": [
-		"packages/eslint-plugin-kengoldfarb",
-		"packages/eslint-config-kengoldfarb"
-	],
 	"engines": {
 		"node": ">=10",
 		"npm": ">=6"
