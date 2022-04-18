@@ -21,6 +21,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"conventional-changelog-kengoldfarb": "^1.0.0",
+		"eslint": "^8.13.0",
 		"lerna": "^4.0.0",
 		"typescript": "^4.6.3"
 	}
