@@ -142,7 +142,8 @@ module.exports = {
 		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'@typescript-eslint/ban-ts-comment': 0,
 		'@typescript-eslint/no-var-requires': 0,
-		'import/prefer-default-export': 0
+		'import/prefer-default-export': 0,
+		'no-console': ['error']
 	},
 	overrides: [
 		{
