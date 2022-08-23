@@ -101,6 +101,9 @@ module.exports = {
 		'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'object-shorthand': ['error', 'always'],
 		'kengoldfarb/prefer-pascal-case-enums': 'error',
+		'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+		'react/require-default-props': 0,
+		'react/prop-types': 0,
 		'@typescript-eslint/explicit-module-boundary-types': 0,
 		'@typescript-eslint/no-empty-interface': 0,
 		'@typescript-eslint/ban-ts-ignore': 0,
@@ -136,7 +139,19 @@ module.exports = {
 				types: ['boolean'],
 				format: ['PascalCase'],
 				leadingUnderscore: 'allow',
-				prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'was', 'as']
+				prefix: [
+					'is',
+					'should',
+					'has',
+					'can',
+					'did',
+					'will',
+					'was',
+					'as',
+					'does',
+					'are',
+					'loading'
+				]
 			}
 		],
 		'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
