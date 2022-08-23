@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/kengoldfarb/lint/compare/v1.4.1...v1.4.2) (2022-06-02)
+
+
+### Bug Fixes
+
+* enforce no-console ([24e0251](https://github.com/kengoldfarb/lint/commit/24e0251))
+
+
+
+
+
 ## [1.4.1](https://github.com/kengoldfarb/lint/compare/v1.4.0...v1.4.1) (2022-04-18)
 
 **Note:** Version bump only for package eslint-config-kengoldfarb
