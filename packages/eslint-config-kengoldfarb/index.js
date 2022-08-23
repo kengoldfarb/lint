@@ -101,7 +101,7 @@ module.exports = {
 		'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'object-shorthand': ['error', 'always'],
 		'kengoldfarb/prefer-pascal-case-enums': 'error',
-		'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+		'no-plusplus': 0,
 		'react/require-default-props': 0,
 		'react/prop-types': 0,
 		'@typescript-eslint/explicit-module-boundary-types': 0,
