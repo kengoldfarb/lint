@@ -150,7 +150,8 @@ module.exports = {
 					'as',
 					'does',
 					'are',
-					'loading'
+					'loading',
+					'use'
 				]
 			}
 		],
