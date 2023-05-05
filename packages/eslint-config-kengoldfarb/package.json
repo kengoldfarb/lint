@@ -1,44 +1,44 @@
 {
-	"name": "eslint-config-kengoldfarb",
-	"publishConfig": {
-		"access": "public"
-	},
-	"version": "1.4.5",
-	"description": "A sensible ESLint configuration for Typescript and (optionally) React",
-	"author": "Ken Goldfarb <hello@kengoldfarb.com>",
-	"homepage": "https://github.com/kengoldfarb/lint",
-	"license": "MIT",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/kengoldfarb/lint.git"
-	},
-	"scripts": {
-		"arkit": "arkit -f index.js -o docs/images/arkit.svg",
-		"arkit.png": "arkit -f index.js -o docs/images/arkit.png"
-	},
-	"bugs": {
-		"url": "https://github.com/kengoldfarb/lint/issues"
-	},
-	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.59.2",
-		"@typescript-eslint/parser": "^5.59.2",
-		"eslint-config-airbnb-typescript": "^17.0.0",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-jsx-a11y": "^6.7.1",
-		"eslint-plugin-kengoldfarb": "^1.4.5",
-		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"prettier": "^2.8.8"
-	},
-	"peerDependencies": {
-		"eslint": "^8",
-		"typescript": "^4"
-	},
-	"devDependencies": {
-		"arkit": "^1.6.4",
-		"eslint": "^8.39.0"
-	}
+  "name": "eslint-config-kengoldfarb",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.5.0",
+  "description": "A sensible ESLint configuration for Typescript and (optionally) React",
+  "author": "Ken Goldfarb <hello@kengoldfarb.com>",
+  "homepage": "https://github.com/kengoldfarb/lint",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kengoldfarb/lint.git"
+  },
+  "scripts": {
+    "arkit": "arkit -f index.js -o docs/images/arkit.svg",
+    "arkit.png": "arkit -f index.js -o docs/images/arkit.png"
+  },
+  "bugs": {
+    "url": "https://github.com/kengoldfarb/lint/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-kengoldfarb": "^1.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "eslint": "^8",
+    "typescript": "^4"
+  },
+  "devDependencies": {
+    "arkit": "^1.6.4",
+    "eslint": "^8.39.0"
+  }
 }
