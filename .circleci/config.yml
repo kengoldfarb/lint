@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/node:18
+      - image: cimg/node:18.16.0
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -15,7 +15,7 @@ jobs:
       - run: yarn test
   pre_release:
     docker:
-      - image: circleci/node:18
+      - image: cimg/node:18.16.0
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -30,7 +30,7 @@ jobs:
       - run: export SHA=$(git rev-parse --short HEAD) && npm run publish -- prerelease --yes --preid pre-$SHA --message "%s [skip ci]" --no-git-tag-version --no-push --dist-tag canary
   dev_release:
     docker:
-      - image: circleci/node:18
+      - image: cimg/node:18.16.0
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -47,7 +47,7 @@ jobs:
       - run: npm run publish -- --yes --force-publish --npm-tag beta --message "%s [skip ci]"
   prod_release:
     docker:
-      - image: circleci/node:18
+      - image: cimg/node:18.16.0
     steps:
       - add_ssh_keys:
           fingerprints:
