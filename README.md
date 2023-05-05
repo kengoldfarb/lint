@@ -1,5 +1,5 @@
 
-# kengoldfarb/link
+# kengoldfarb/lint
 A sensible ESLint configuration for Typescript and (optionally) React
 
 
@@ -37,6 +37,23 @@ $ npm link
 $ cd path/to/other-repo
 $ npm link eslint-config-kengoldfarb
 $ npm link eslint-plugin-kengoldfarb
+```
+
+### Unlink to local repos
+
+```shell
+$ cd path/to/other-repo
+$ npm unlink eslint-config-kengoldfarb
+$ npm unlink eslint-plugin-kengoldfarb
+```
+
+### Unlink package locally
+```shell
+$ cd packages/eslint-config-kengoldfarb
+$ npm unlink
+
+$ cd packages/eslint-plugin-kengoldfarb
+$ npm unlink
 ```
 
 ---
